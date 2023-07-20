@@ -25,6 +25,11 @@
     }
     *{
         font-size: 0.5rem;
+    }.cardsRelative{
+        height: 40vh;
+    }
+    .layoutCards{
+        height: 39vh;
     }
     .userLResponsive{
         display: flex;
@@ -91,12 +96,6 @@
     }
     .LivrosDestaques{
         width: 100%;
-    }
-    .cardsRelative{
-        height: 51vh;
-    }
-    .layoutCards{
-        height: 50vh;
     }
     .register a{
         font-size: 1.1rem;
