@@ -25,7 +25,7 @@ cartoesLivros.forEach((cartao, index) => {
         cartao.innerHTML = `<label class="infLivro" for="submit${index}">
         <h1>Titulo - ${index + 1}</h1>
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur consequuntur recusandae, distinctio facilis illum expedita nam necessitatibus sequi praesentium esse porro possimus eveniet quod sunt a fugiat error autem nobis? </p>
-            <a href="./leitura.html" id="submit${index}" class="buttonRead">Iniciar leitura</a>
+            <a href="./src/pages/leitura.html" id="submit${index}" class="buttonRead">Iniciar leitura</a>
         </label>`
         cartao.classList.add("target")
     } setTimeout(() => {
