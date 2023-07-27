@@ -13,6 +13,7 @@ menu.addEventListener('click', () => {
         menu.classList.add('cancelIcon')
     }
 });
+
 window.addEventListener('scroll', () =>{
     nav.classList.remove('navResponsive')
     list.classList.remove('userLResponsive')

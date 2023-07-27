@@ -3,50 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/login-register.css">
+    <link rel="stylesheet" href="../CSS/global.css">
     <title>Wolf - página de registro</title>
 </head>
 <body>
     <header>
-        <a href="../../index.html">
-            <img src="../imagem/Logo-Branco.svg" alt="Logo-Livraria-Wolf">
+        <a href="../../index.html" class="logoHome">
+            <img src="../imagem/Logo-Marrom.svg" alt="Logo-Livraria-Wolf">
         </a>
     </header>
-    <main>
-        <form action="#">
+    <main class="mainLoginRegister">
+        <form action="#" class="formRegister">
+            <h1>REGISTRAR-SE</h1>
             <div class="boxRelative">
-                <label for="name">
+                <label for="name" class="labelLR">
                     Nome de usuário
-                    <input type="text" id="name">
                 </label>
+                <input type="text" id="name" class="inputLR" autocomplete="off">
             </div>
             <div class="boxRelative">
-                <label for="email">
+                <label for="email" class="labelLR">
                     Email
-                    <input type="email" id="email">
                 </label>
+                <input type="email" id="email" class="inputLR" autocomplete="off">
             </div>
-            <div class="boxRelative">
+            <div class="boxRelative birthday">
                 <label for="birthday">
                     Data de nascimento
-                    <input type="date" id="birthday">
                 </label>
+                <input type="date" id="birthday">
             </div>
             <div class="boxRelative">
-                <label for="password" >
+                <label for="password" class="labelLR">
                     Senha
-                    <input type="password" id="password">
                 </label>
+                <input type="password" id="password" class="inputLR" autocomplete="off">
             </div>
             <div class="confirmBox">
                 <label for="register" class="registerLabel">
+                    REALIZAR REGISTRO
                     <input type="submit" value="REALIZAR REGISTRO" id="register">
                 </label>
             </div>
             <span>Já possui uma conta?<a href="./login.html">entrar</a></span>
         </form>
         <div class="background">
-            <img src="../imagem/registerBackground.jpg" alt="background decorativo">
         </div>
     </main>
+    <script src="../JS/labels.js"></script>
 </body>
 </html>

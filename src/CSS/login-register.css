@@ -1,0 +1,99 @@
+header{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    padding: 10px;
+    justify-content: flex-end;
+    position: absolute;
+}
+
+.logoHome{
+    width: 9%;
+}
+
+.logoHome img{
+    width: 100%;
+}
+
+.formRegister{
+    display: flex;
+    height: 100vh;
+    width: 40vw;
+    background-color: #8C451C;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.background{
+    height: 100vh;
+    width: 100%;
+    background: url(../imagem/registerBackground.jpg) 53% 80% no-repeat;
+    background-size: 120%;
+}
+
+.mainLoginRegister{
+    display: flex;
+    color: #fff;
+}
+
+.boxRelative{
+    width: 70%;
+    height: 7%;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+
+.labelLR{
+    position: absolute;
+    top: 32%;
+    left: 5%;
+}
+
+.birthday{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.inputLR{
+    border: 5px #fff solid;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    background: none;
+    padding: 10px;
+}
+
+.inputLR:focus{
+    color: #fff;
+    border: #c9c9c9 5px solid;
+}
+
+.labelActive {
+    background-color: #8C451C;
+    top: -10%;
+    padding: 0 8px;
+    text-align: center;
+    color: #c9c9c9;
+}
+
+#register{
+    display: none;
+}
+
+.registerLabel{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 10vh;
+    border: #fff 3px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 550;
+}
