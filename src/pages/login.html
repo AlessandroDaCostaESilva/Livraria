@@ -3,40 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/login-register.css">
+    <link rel="stylesheet" href="../CSS/global.css">
+    <link rel="stylesheet" href="../CSS/responsiveLoginRegister.css">
     <title>Wolf - página de login</title>
 </head>
 <body>
     <header>
-        <a href="../../index.html">
-            <img src="../imagem/Logo-Marrom.svg" alt="Logo-Livraria-Wolf">
+        <a href="../../index.html" class="logoHome">
+            <img src="../imagem/Logo-Branco.svg" alt="Logo-Livraria-Wolf">
         </a>
     </header>
-    <main>
-        <form action="#">
+    <main class="mainLoginRegister MainLogin">
+        <form action="#" class="formRegister login">
+            <h1>ENTRAR</h1>
             <div class="boxRelative">
-                <label for="loginName">
-                    Nome de usuário
-                    <input type="text" id="loginName">
+                <label for="nameLogin" class="labelLR labelLogin">
+                    Nome de usuário ou Email
                 </label>
-            </div>
+                <input type="text" id="nameLogin" class="inputLR inputLogin" autocomplete="off">
             </div>
             <div class="boxRelative">
-                <label for="loginPassword" >
+                <label for="passwordLogin" class="labelLR labelLogin">
                     Senha
-                    <input type="password" id="loginPassword">
                 </label>
+                <input type="password" id="passwordLogin" class="inputLR inputLogin" autocomplete="off">
             </div>
             <div class="confirmBox">
-                <label for="login" class="loginLabel">
-                    <input type="submit" value="CONFIRMAR LOGIN" id="login">
+                <label for="registerLogin" class="registerLabel LoginLabel">
+                    FAZER LOGIN
+                    <input type="submit" value="REALIZAR LOGIN" id="registerLogin">
                 </label>
             </div>
-            <span>não possui uma conta?
-crie uma <a href="./register.html">registre-se</a></span>
+            <span class="loginTalk">Não possui uma conta?<a href="./register.html" class="loginAndRegisterA loginA">Registre-se</a></span>
         </form>
-        <div class="background">
-            <img src="../imagem/loginBackground.jpg" alt="background decorativo">
+        <div class="background loginBG">
         </div>
+    </main>
+    <script src="../JS/labels.js"></script>
     </main>
 </body>
 </html>
